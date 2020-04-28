@@ -1,0 +1,98 @@
+.viewer-360 {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .viewer-360 .viewer-slider[max='36'][value='1'] + .viewer-image {
+    background-position-y: 0%; }
+  .viewer-360 .viewer-slider[max='36'][value='2'] + .viewer-image {
+    background-position-y: 2.85714%; }
+  .viewer-360 .viewer-slider[max='36'][value='3'] + .viewer-image {
+    background-position-y: 5.71429%; }
+  .viewer-360 .viewer-slider[max='36'][value='4'] + .viewer-image {
+    background-position-y: 8.57143%; }
+  .viewer-360 .viewer-slider[max='36'][value='5'] + .viewer-image {
+    background-position-y: 11.42857%; }
+  .viewer-360 .viewer-slider[max='36'][value='6'] + .viewer-image {
+    background-position-y: 14.28571%; }
+  .viewer-360 .viewer-slider[max='36'][value='7'] + .viewer-image {
+    background-position-y: 17.14286%; }
+  .viewer-360 .viewer-slider[max='36'][value='8'] + .viewer-image {
+    background-position-y: 20%; }
+  .viewer-360 .viewer-slider[max='36'][value='9'] + .viewer-image {
+    background-position-y: 22.85714%; }
+  .viewer-360 .viewer-slider[max='36'][value='10'] + .viewer-image {
+    background-position-y: 25.71429%; }
+  .viewer-360 .viewer-slider[max='36'][value='11'] + .viewer-image {
+    background-position-y: 28.57143%; }
+  .viewer-360 .viewer-slider[max='36'][value='12'] + .viewer-image {
+    background-position-y: 31.42857%; }
+  .viewer-360 .viewer-slider[max='36'][value='13'] + .viewer-image {
+    background-position-y: 34.28571%; }
+  .viewer-360 .viewer-slider[max='36'][value='14'] + .viewer-image {
+    background-position-y: 37.14286%; }
+  .viewer-360 .viewer-slider[max='36'][value='15'] + .viewer-image {
+    background-position-y: 40%; }
+  .viewer-360 .viewer-slider[max='36'][value='16'] + .viewer-image {
+    background-position-y: 42.85714%; }
+  .viewer-360 .viewer-slider[max='36'][value='17'] + .viewer-image {
+    background-position-y: 45.71429%; }
+  .viewer-360 .viewer-slider[max='36'][value='18'] + .viewer-image {
+    background-position-y: 48.57143%; }
+  .viewer-360 .viewer-slider[max='36'][value='19'] + .viewer-image {
+    background-position-y: 51.42857%; }
+  .viewer-360 .viewer-slider[max='36'][value='20'] + .viewer-image {
+    background-position-y: 54.28571%; }
+  .viewer-360 .viewer-slider[max='36'][value='21'] + .viewer-image {
+    background-position-y: 57.14286%; }
+  .viewer-360 .viewer-slider[max='36'][value='22'] + .viewer-image {
+    background-position-y: 60%; }
+  .viewer-360 .viewer-slider[max='36'][value='23'] + .viewer-image {
+    background-position-y: 62.85714%; }
+  .viewer-360 .viewer-slider[max='36'][value='24'] + .viewer-image {
+    background-position-y: 65.71429%; }
+  .viewer-360 .viewer-slider[max='36'][value='25'] + .viewer-image {
+    background-position-y: 68.57143%; }
+  .viewer-360 .viewer-slider[max='36'][value='26'] + .viewer-image {
+    background-position-y: 71.42857%; }
+  .viewer-360 .viewer-slider[max='36'][value='27'] + .viewer-image {
+    background-position-y: 74.28571%; }
+  .viewer-360 .viewer-slider[max='36'][value='28'] + .viewer-image {
+    background-position-y: 77.14286%; }
+  .viewer-360 .viewer-slider[max='36'][value='29'] + .viewer-image {
+    background-position-y: 80%; }
+  .viewer-360 .viewer-slider[max='36'][value='30'] + .viewer-image {
+    background-position-y: 82.85714%; }
+  .viewer-360 .viewer-slider[max='36'][value='31'] + .viewer-image {
+    background-position-y: 85.71429%; }
+  .viewer-360 .viewer-slider[max='36'][value='32'] + .viewer-image {
+    background-position-y: 88.57143%; }
+  .viewer-360 .viewer-slider[max='36'][value='33'] + .viewer-image {
+    background-position-y: 91.42857%; }
+  .viewer-360 .viewer-slider[max='36'][value='34'] + .viewer-image {
+    background-position-y: 94.28571%; }
+  .viewer-360 .viewer-slider[max='36'][value='35'] + .viewer-image {
+    background-position-y: 97.14286%; }
+  .viewer-360 .viewer-slider[max='36'][value='36'] + .viewer-image {
+    background-position-y: 100%; }
+  .viewer-360 .viewer-slider {
+    cursor: ew-resize;
+    margin: 1rem;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    width: 60%; }
+  .viewer-360 .viewer-image {
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100%;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1; }

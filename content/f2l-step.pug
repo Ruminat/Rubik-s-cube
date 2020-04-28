@@ -1,0 +1,163 @@
+h4 F2L (обычные случаи)
+
+.container.cube-cases
+  .columns
+    .column.col-6
+      span Меняет нижние рёбра (FD и RD) местами:
+  .columns
+    +case(3, "img/FD and RD.png", ["S'丸[(M'丸U) 2U]", "* (手RD) R"])
+
+
+h5 Случай BU. Угол внизу, ребро вверху
+
+.container.cube-cases
+  .columns
+    +case(3, "img/F2L/case-2/state-1.png", ["(RS')無(R'丸U)", "2y x' (R丸U) (F'丸R') (RU')", "(手UR) y (手U'L')", "* y D丸(手U'L')"])
+    +case(3, "img/F2L/case-2/state-3.png", "y (L'丸U) (手U'L')")
+    +case(3, "img/F2L/case-2/state-5.png", "(R丸U') (手UR)")
+  .columns
+    +case(3, "img/F2L/case-2/state-2.png", ["腕(R'F')&(腕RU)", "2y x' (L'丸U') (F丸L) (L'U)", "(手U'F) (手UR)", "* 2R丸(U'丸R')"])
+    +case(3, "img/F2L/case-2/state-4.png", "(R丸U) (手U'R)")
+    +case(3, "img/F2L/case-2/state-6.png", "y (L'丸U') (手UL')")
+
+h5 Случай BM. Угол внизу, ребро посередине
+
+.container.cube-cases
+  .columns
+    +case(3, "img/F2L/case-6/state-2.png", ["(R丸U') (r丸U') 2U (r丸U)", "* (R丸U) y' (R丸U') U (R'丸U')"])
+    +case(3, "img/F2L/case-6/state-1.png", "(R丸U')進[U進(R丸2U)]")
+    +case(3, "img/F2L/case-6/state-0.png", ["(R丸2U) (U二R) R' (手UF')", "2[(R丸2U) U] y (L'丸U')", "(R丸U') d (R'丸2U)進U", "* D丸[(手R'F) (R丸U')]"])
+  .columns
+    +case(3, "img/F2L/case-6/state-4.png", ["(r丸U') 2U (r丸U) (R丸U)", "* [R進(U'進2R)] y (L'丸U')"])
+    +case(3, "img/F2L/case-6/state-3.png", "(足RU') [(R丸U)丸2U]")
+
+h5 Случай UM. Угол вверху, ребро посередине
+
+.container.cube-cases
+  .columns
+    +case(3, "img/F2L/case-3/state-3.png", ["(U) [(R'D')無(R丸U')]", "y (腕UL') U (L'丸2U)", "* D'丸(L'丸U)"])
+    +case(3, "img/F2L/case-3/state-4.png", ["RU [S'丸(R'丸U)] R'", "y (U') [(M'U')無L'] UL", "y (手UL') d' (L丸U)"])
+    +case(3, "img/F2L/case-3/state-2.png", ["(R丸U') d (R'丸U)", "y' (R'進U) (足FR)"])
+  .columns
+    +case(3, "img/F2L/case-3/state-5.png", ["U' (足RU') (R丸2U)", "y (U') [(LD)無(L'丸U)]", "* D'丸(手UL')"])
+    +case(3, "img/F2L/case-3/state-6.png", ["(U) [(M'U)無R] U'R'", "y L'U' [S丸(L丸U')] L", "(手U'R) d (R'丸U')"])
+    +case(3, "img/F2L/case-3/state-1.png", "3(手RU)")
+
+h5 Случай UU. Угол вверху, ребро вверху
+
+.container.cube-cases
+  .columns
+    +case(3, "img/F2L/case-4/state-1.png", ["y (MU')無(R'丸F)", "(U進M') (RU'r') (手U'R)", "(R丸U') 2U y (L'丸U')", "* [U'進(R'丸U)] (R丸U)"])
+    +case(3, "img/F2L/case-4/state-7.png", "(腕U'R) (腕UR)")
+    +case(3, "img/F2L/case-4/state-11.png", ["(四R'U) (2RU) R", "U (F'丸2U) (手U'R)", "* (四R'U) R'"])
+  .columns
+    +case(3, "img/F2L/case-4/state-2.png", ["(MU)無(L丸F')", "y (手L'U) d' (L丸U)", "* y [U進(L丸U')] (L'丸U')"])
+    +case(3, "img/F2L/case-4/state-8.png", ["M' (手U'R) (U'二R) r'", "y (腕UL') (腕U'L')"])
+    +case(3, "img/F2L/case-4/state-12.png", ["y' (四RU') (2RU') R'", "(U'丸R) (U進R') (F'丸U')", "* y (四LU') L"])
+
+.container.cube-cases
+  .columns
+    +case(3, "img/F2L/case-4/state-5.png", ["(U') [r丸((手U'R') U)]", "y (手UL') U (L'丸2U)"])
+    +case(3, "img/F2L/case-4/state-9.png", ["(手U'R) (腕UR)", "* R'進(U進2R)"])
+    +case(3, "img/F2L/case-4/state-3.png", ["r'丸[2U (足2RU)]", "y 2[U (L'丸2U)]"])
+  .columns
+    +case(3, "img/F2L/case-4/state-6.png", ["(y U) [l'丸((手UL) U')]", "(手U'R) U' (R丸2U)"])
+    +case(3, "img/F2L/case-4/state-10.png", ["y (手UL') (腕U'L')", "* y L進(U'進2L)"])
+    +case(3, "img/F2L/case-4/state-4.png", ["(M'丸U') 2U (r丸U')", "2[U' (R丸2U)]"])
+
+h5 Случай U(U)U. Угол вверху (белым кверху), ребро вверху
+
+.container.cube-cases
+  .columns
+    +case(3, "img/F2L/case-5/state-1.png", ["(R二U') [D'丸(R丸2U)] R", "[U進(手FR')] (R丸U)"])
+    +case(3, "img/F2L/case-5/state-7.png", "(R丸2U) (手U'R)")
+    +case(3, "img/F2L/case-5/state-3.png", ["y (FR)無2U", "(R丸U')無2U", "y (l'丸U)無2U"])
+    +case(3, "img/F2L/case-5/state-5.png", "U (R丸2U) (手UR)")
+  .columns
+    +case(3, "img/F2L/case-5/state-2.png", "[F丸(手UR)] (R丸U')")
+    +case(3, "img/F2L/case-5/state-8.png", "y (L'丸2U) (手UL')")
+    +case(3, "img/F2L/case-5/state-4.png", ["(F'L')丸2U", "y (L'丸U)無2U", "(r丸U')無2U"])
+    +case(3, "img/F2L/case-5/state-6.png", "y U' (L'丸2U) (手U'L')")
+
+h5 Грязный случай BM. Угол внизу, ребро посередине
+
+.container.cube-cases
+  .columns
+    +case(3, "img/F2L/extra/BM/state-1.jpg", "2R (手U'2R)")
+    +case(3, "img/F2L/extra/BM/state-2.jpg", "y (手R'u') R")
+    +case(3, "img/F2L/extra/BM/state-5.jpg", "(手LF') (R丸U')")
+    +case(3, "img/F2L/extra/BM/state-7.jpg", "違丸2U")
+  .columns
+    +case(3, "img/F2L/extra/BM/state-3.jpg", "y 2L (手U2L)")
+    +case(3, "img/F2L/extra/BM/state-4.jpg", "(手Lu) L'")
+    +case(3, "img/F2L/extra/BM/state-6.jpg", "y (手R'F) (L'丸U)")
+
+h5 Грязный случай U(U)M. Угол вверху (белым кверху), ребро посередине
+
+.container.cube-cases
+  .columns
+    +case(3, "img/F2L/extra/UUM/state-1.jpg", "U' [R'進(U丸2R)]")
+    +case(3, "img/F2L/extra/UUM/state-2.jpg", "y R' [F丸(鏡R'U')]")
+    +case(3, "img/F2L/extra/UUM/state-5.jpg", "2U [2L進(u丸2L)]")
+  .columns
+    +case(3, "img/F2L/extra/UUM/state-3.jpg", "y U [L進(U'丸2L)]")
+    +case(3, "img/F2L/extra/UUM/state-4.jpg", "L [F'丸(鏡LU)]")
+    +case(3, "img/F2L/extra/UUM/state-6.jpg", "L丸(F'丸U)")
+
+h5 Грязный случай UM. Угол вверху, ребро посередине
+
+.container.cube-cases
+  .columns
+    +case(3, "img/F2L/extra/UM/state-1.jpg", "R'進(U'丸2R)")
+    +case(3, "img/F2L/extra/UM/state-3.jpg", "(腕U'L') (R丸U')")
+    +case(3, "img/F2L/extra/UM/state-2.jpg", "y L (手uL)")
+  .columns
+    +case(3, "img/F2L/extra/UM/state-9.jpg", "y L進(U丸2L)")
+    +case(3, "img/F2L/extra/UM/state-7.jpg", "y (腕UR) (L'丸U)")
+    +case(3, "img/F2L/extra/UM/state-10.jpg", "R' (手u'R')")
+
+.container.cube-cases
+  .columns
+    +case(3, "img/F2L/extra/UM/state-4.jpg", "(F丸2U) (R丸U)")
+    +case(3, "img/F2L/extra/UM/state-6.jpg", "2U (手R'F) (L丸U)")
+    +case(3, "img/F2L/extra/UM/state-5.jpg", "(腕UR) (L丸U)")
+  .columns
+    +case(3, "img/F2L/extra/UM/state-8.jpg", "(R'丸2U) (F'丸U')")
+    +case(3, "img/F2L/extra/UM/state-12.jpg", "2U (RB'無U')")
+    +case(3, "img/F2L/extra/UM/state-11.jpg", "(腕U'R) (L丸U')")
+
+h5 Грязный случай BU. Угол внизу, ребро вверху
+
+.container.cube-cases
+  .columns
+    +case(3, "img/F2L/extra/BU/state-1.jpg", "(手UR) (L'丸U)")
+    +case(3, "img/F2L/extra/BU/state-2.jpg", "y (L'丸2U) (手U'L)")
+    +case(3, "img/F2L/extra/BU/state-14.jpg", "(手UR) y (R'丸2U)")
+  .columns
+    +case(3, "img/F2L/extra/BU/state-8.jpg", "y (手U'L') (R丸U')")
+    +case(3, "img/F2L/extra/BU/state-7.jpg", "(R丸2U) (手UR')")
+    +case(3, "img/F2L/extra/BU/state-13.jpg", "y (手U'L') y' (L丸2U)")
+
+.container.cube-cases
+  .columns
+    +case(3, "img/F2L/extra/BU/state-10.jpg", "y 同丸U'")
+    +case(3, "img/F2L/extra/BU/state-9.jpg", "(腕U'R) (手U'R')")
+  .columns
+    +case(3, "img/F2L/extra/BU/state-5.jpg", "同丸U")
+    +case(3, "img/F2L/extra/BU/state-6.jpg", "y (腕UL') (腕UL)")
+
+.container.cube-cases
+  .columns
+    +case(3, "img/F2L/extra/BU/state-11.jpg", "(UR) (四UR)")
+    +case(3, "img/F2L/extra/BU/state-12.jpg", "(R丸U) 2U (f丸R)")
+  .columns
+    +case(3, "img/F2L/extra/BU/state-4.jpg", "y (U'L') (四U'L')")
+    +case(3, "img/F2L/extra/BU/state-3.jpg", "y (L'丸U') 2U (f'丸L')")
+
+.container.cube-cases
+  .columns
+    +case(3, "img/F2L/extra/BU/state-17.jpg", "y (手LF') (R'丸2U)")
+    +case(3, "img/F2L/extra/BU/state-18.jpg", "y (L'丸U) (R'丸2U)")
+  .columns
+    +case(3, "img/F2L/extra/BU/state-16.jpg", "(手R'F) (L丸2U)")
+    +case(3, "img/F2L/extra/BU/state-15.jpg", "(R丸U') (L丸2U)")

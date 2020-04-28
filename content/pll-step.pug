@@ -1,0 +1,104 @@
+h4 PLL
+
+h5 Углы на одной стороне
+
+.container.cube-cases
+  .columns
+    .column.col-4
+      span Jb-perm
+    .column.col-4
+      span Rb-perm
+    .column.col-4
+      span T-perm
+  .columns
+    +case(4, "img/PLL/Jb.png", "(R丸U) [(F'R)無(U丸R')] (2RU'R')")
+    +case(4, "img/PLL/Rb.png", ["(R'進2U) [(D'R)無U'] (腕RU) (R'丸U')", "2R [(FR)無(U丸R)] (手R2U) R", "y' (手R'2U) [腕(R'F)&(手RU)] (2RU')"])
+    +case(4, "img/PLL/T.png", "(手RU) [腕(R'F)&(2RU' (手R'U'))]")
+  .columns
+    .column.col-4
+      span Ja-perm
+    .column.col-4
+      span Ra-perm
+    .column.col-4
+      span F-perm
+  .columns
+    +case(4, "img/PLL/Ja.png", ["2y (L'丸U') [(FL')無(U'丸L)] (2LUL)", "x 2R (足FR) [(2Ur')無U]", "y' (R'違U) [2U進(R丸U')] (違) U'"])
+    +case(4, "img/PLL/Ra.png", ["(R丸U') (足U'R) [(DR')無U'] (R'進2U)", "y' (手L2U) [腕(LF')&(手L'U')] (2LU)"])
+    +case(4, "img/PLL/F.png", ["R'U' [(F'R)無(U丸R')] 2R (腕U'R') (腕UR')", "y (R'進2U) (y U') (R'二F') (足U'R') [F進(RU')]"])
+
+h5 Углы по диагонали
+
+.container.cube-cases
+  .columns
+    .column.col-6
+      span Na-perm
+    .column.col-6
+      span V-perm
+  .columns
+    +case(6, "img/PLL/Na.png", ["(足RU) Jb 2U (R丸U')", "y 2[(L違U')丸2U] U"])
+    +case(6, "img/PLL/V.png", ["(R'進U) (y U') (R'二F') (足U'R') (F進R)", "z (手D'2R) [(UR')無(D')] R [(UR')無(D)]"])
+  .columns
+    .column.col-6
+      span Nb-perm
+    .column.col-6
+      span Y-perm
+  .columns
+    +case(6, "img/PLL/Nb.png", ["(手R'U) [(R'F')無(U')] [手(UR')&(手FR')]", "y 2[(R'違U)丸2U] U'"])
+    +case(6, "img/PLL/Y.png", "[(FR)無(U' (手R'U'))] (手RU) (手R'F)")
+
+h5 Жижа
+
+.container.cube-cases
+  .columns
+    .column.col-6
+      span Ga-perm
+    .column.col-6
+      span Gb-perm
+  .columns
+    +case(6, "img/PLL/Ga.png", ["[(2R (U進R'))無R'] U' (DR')無U", "[(2Ru)無(R' (手UR'))] y' (R'丸U)"])
+    +case(6, "img/PLL/Gb.png", ["(手R'U') [(D'2R (U進R'))無R]", "(R'丸U') y [(2Ru)無((手R'U) R)]"])
+  .columns
+    .column.col-6
+      span Gc-perm
+    .column.col-6
+      span Gd-perm
+  .columns
+    +case(6, "img/PLL/Gc.png", ["[(2R (U'進R))無R] U (D'R)無U'", "[(2Ru')無(R (手U'R))] y (R丸U')"])
+    +case(6, "img/PLL/Gd.png", ["(手RU) [(D2R (U'進R))無R']", "(R丸U) y' [(2Ru')無((手RU') R')]"])
+
+h5 Треугольник
+
+.container.cube-cases
+  .columns
+    .column.col-6
+      span Aa-perm
+    .column.col-6
+      span Ua-perm
+  .columns
+    +case(6, "img/PLL/Aa.png", ["x 2L [(2DL')無U'] (L'進U)", "x (R'進U) [2D丸(R丸U')] 2R"])
+    +case(6, "img/PLL/Ua.png", ["2M (U二M) (M'二U)", "2y 2M進[U進(M'丸2U)]", "2y 2R (U進R) 2(R'U') (R'進U)"])
+  .columns
+    .column.col-6
+      span Ab-perm
+    .column.col-6
+      span Ub-perm
+  .columns
+    +case(6, "img/PLL/Ab.png", ["x' 2L [(2DL)無U] (L進U')", "x' (R進U') [2D丸(R'丸U)] 2R"])
+    +case(6, "img/PLL/Ub.png", ["2M (U'二M) (M'二U')", "2y 2M進[U'進(M'丸2U)]", "2y (R進U') 2(UR) (U'進R') 2R"])
+
+h5 Две полоски
+
+.container.cube-cases
+  .columns
+    .column.col-6
+      span Z-perm
+    .column.col-6
+      span E-perm
+  .columns
+    +case(6, "img/PLL/Z.png", ["(M'U') 2(2MU') M' (2・UM)", "2(2MU) [M'進(2・UMU)] 2U"])
+    +case(6, "img/PLL/E.png", ["x' [手(L'丸U)(D')] [手(L'丸U')(D')]", "x' [手(R丸U')(D)] [手(R丸U)(D)]"])
+  .columns
+    .column.col-6
+      span H-perm
+  .columns
+    +case(6, "img/PLL/H.png", "[(2M進U)進2U]")
