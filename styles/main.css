@@ -63,3 +63,20 @@
 .cube-solution {
   font-family: 'Noto Serif CJK JP Light' !important;
 }
+
+
+@media screen and (min-width: 960px) and (max-width: 1280px) {
+  .cube-case {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 840px) and (max-width: 960px) {
+  .cube-case {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (min-width: 0) and (max-width: 840px) {
+  .cube-case {
+    font-size: 0.6rem;
+  }
+}
