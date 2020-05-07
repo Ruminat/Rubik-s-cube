@@ -28,7 +28,7 @@ R' 2(R' U') 2(R U) R進U' -- против часовой
 F B 2U R 2F 2R 2B U' D F 2U R' L' U 2B D 2R U 2B U
 
  --------------------------------------------------
-| PLL-attack
+| PLL-attack (AGJR NU FYTHVEZ )
  --------------------------------------------------
 | 
 | [Aa] x 2L [(2DL')無U'] (L'進U)
@@ -45,17 +45,17 @@ F B 2U R 2F 2R 2B U' D F 2U R' L' U 2B D 2R U 2B U
 | [Rb] (R'進2U) [(D'R)無U'] (腕RU) (R'丸U')
 | [Ra] (R丸U') (足U'R) [(DR')無U'] (R'進2U)
 | 
-| [Na] (足RU) Jb 2U (R丸U')
 | [Nb] (手R'U) [(R'F')無(U')] [手(UR')&(手FR')
+| [Na] (足RU) Jb 2U (R丸U')
 | 
-| [Ua] 2M (U二M) (M'二U)
 | [Ub] 2M (U'二M) (M'二U')
+| [Ua] 2M (U二M) (M'二U)
 | 
 | [F]  R'U' [(F'R)無(U丸R')] 2R (腕U'R') (腕UR')
 | [Y]  [(FR)無(U' (手R'U'))] (手RU) (手R'F)
 | [T]  (手RU) [腕(R'F)&(2RU' (手R'U'))]
 | [H]  [(2M進U)進2U]
-| [V]  (R'進U) (y U') (R'二F') (足U'R') (F進R)
+| [V]  (腕RU') (手R'D) RU' [(D2R)無U] 2R
 | [E]  x' [手(L'丸U)(D')] [手(L'丸U')(D')]
 | [Z]  (M'U') 2(2MU') M' (2・UM)
 |
