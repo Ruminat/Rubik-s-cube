@@ -70,8 +70,17 @@ R丸U (手FR')
 
 OLL Parity
 r 2U x r 2U r 2U r' 2U l 2U r' 2U r 2U r' 2U r'
-(r 2U)進x (手2rU) l (手2Ur') 2(2U r')
+(r 2U)進x (手r 2U) l (手2U r') 2(2U r')
 
 PLL Parity
 2R_2 2U 2R_2 2u 2R_2 2u
 (2R_2進2U) (2u進2R_2)
+
+
+ -------------
+| КУБИК 5x5x5 |
+ -------------
+
+Edge parity
+
+Rw U2 x Rw U2 Rw U2 Rw' U2 Lw U2 3Rw' U2 Rw U2 Rw' U2 Rw'
